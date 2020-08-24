@@ -13,11 +13,11 @@ Source control management (or an interchangeable term "version control") has mad
 - Open Source community management with GitHub
 - Project management with GitLab
 
-[Go to the slides content][slides].
+[Go to the slides content](slides.md).
 
 ## Labs
 
-[Go to the labs description][labs].
+[Go to the labs description](labs.md).
 
 ## Assignment for the next class
 

@@ -1,4 +1,4 @@
-# Continuous Testing
+# Continuous testing
 
 ## Test driven development (TDD)
 

@@ -1,4 +1,4 @@
-# Infrastructure as code
+# Infrastructure as code (IaC)
 
 Infrastructure as code (IaC) is a type of IT setup wherein developers or operations teams automatically manage and provision the technology stack for an application through software, rather than using a manual process to configure discrete hardware devices and operating systems.
 
@@ -15,7 +15,7 @@ Infrastructure as code (IaC) is a type of IT setup wherein developers or operati
 - On-premise deployment automation with Ansible
 
 
-[Go to the slides content][slides].
+[Go to the slides content](slides.md).
 
 ## Labs
 
@@ -23,13 +23,13 @@ Infrastructure as code (IaC) is a type of IT setup wherein developers or operati
 2. Provision a VM using Ansible 
 3. Complete the GitLab installation
 
-[Go to the labs description][labs].
+[Go to the labs description](labs.md).
 
 ## Assignment for the next class
 
 1. Make GitLab healthcheck
 
-[Go to the assignment description][labs].
+[Go to the assignment description](assignment.md).
 
 ## Resources
 

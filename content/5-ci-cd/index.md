@@ -13,15 +13,10 @@
 - API publishing
 - Schema publishing
 
-[Go to the slides content][slides].
+[Go to the slides content](slides.md).
 
 ## Labs
 
-
-[Go to the labs description][labs].
-
-## Assignment for the next class
-
-[Go to the assignment description][labs].
+[Go to the labs description](labs.md).
 
 ## Resources
