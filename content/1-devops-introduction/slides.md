@@ -1,14 +1,8 @@
----
-title: Introduction to DevOps
----
+# Introduction to DevOps
 
 ## DevOps
 
 Is a culture, mindsets.
-
-In 2014, we started speaking about DevOps (in [Site Reliability Engineering](https://landing.google.com/sre/books/))
-
-gatsby-slide
 
 ## What is DevOps?
 
@@ -19,7 +13,15 @@ gatsby-slide
 - Present in a lot of fields: Sysadmin, Data Engeneering, Data Science
 - You can’t do DevOps alone
 
-gatsby-slide
+## Back to the history
+
+- Companies were focused on planning and documenting their software development cycles
+- Agile Manifesto in 2001 - https://agilemanifesto.org/
+- Agile principals were applied to software development
+- People applied the Manifesto’s principles to their work
+- In 2014, we started speaking about DevOps (in [Site Reliability Engineering](https://landing.google.com/sre/books/))
+
+[Read more](https://www.atlassian.com/agile/manifesto)
 
 ## Why DevOps?
 
@@ -30,29 +32,19 @@ gatsby-slide
 - (Most) Repetitive tasks are automated
 - You have less and less time available as the workload increases. Automation is essential
 
-gatsby-slide
-
 ## DevOps life cycle
 
-- [Image 1](image/devops-cycle.png)
-- [Image 2](https://www.markerbench.com/assets/512px-Devops-toolchain-87517177fde0796fcddf9f6ef08da03a43bb973206101589d4bf0bf7f61960ad.png)
-
-[DevOps with GitLab](https://about.gitlab.com/stages-devops-lifecycle/)
-
-gatsby-slide
+![DevOps life cycle](image/devops.png)
 
 ## Site Reliability Engineering (SRE) principles
 
 **"Everything should be completely automated."**
 
-[SRE tools](https://pbs.twimg.com/media/C6O9xBkWAAAo3a6?format=jpg&name=medium) (image)
+![SRE tools](image/SRE-tools.jpg)
 
-Read:
-- [Site Reliability Engineering](https://landing.google.com/sre/books/) (book)
-- [Principles of Site Reliability Engineering at Google](https://medium.com/@jdavidmitchell/principles-of-site-reliability-engineering-at-google-8382b054e498)
-- [Site Reliability Engineering Principles](https://medium.com/@alexbmeng/site-reliability-engineering-principals-fd52229bfcd6)
+## Agile vs Whaterfall
 
-gatsby-slide
+![Agile vs Whaterfall](image/waterfall-and-agile-methods.jpg)
 
 ## The Agile Manifesto
 
@@ -64,8 +56,6 @@ We are uncovering better ways of developing software by doing it and helping oth
 - **Responding to change** over following a plan
 
 That is, while there is value in the items on the right, we value the items on the left more.
-
-gatsby-slide
 
 ## Agile Principles
 
@@ -82,15 +72,35 @@ gatsby-slide
 - Teams should be self-organised
 - Reflect on the progress and process used regularly
 
-gatsby-slide
-
 ## Scrum
 
-- Light management method built on :
-  - Transparency
-  - Inspection
-  - Adaptation
-- Features are developed in a « Sprint »
-- The « Scrum Master » coaches the Dev Team
-- The « Product Owner » represents and interacts with the final client
-- Progression is tracked during the « Daily Scrum Meeting »
+**Scrum is a framework:**
+
+- Lightweight
+- Simple to understand
+- Difficult to master
+
+**Used for:**
+
+- developing
+- delivering
+- sustaining complex products
+
+**Consists of:**
+
+- Scrum Teams and and their roles
+- events
+- artifacts
+- rules
+
+**Built on:**
+
+- Transparency   
+  Significant aspects of the process must be visible to those responsible for the outcome
+- Inspection   
+  Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances
+- Adaptation
+  
+## Scrum
+
+![Scrum Framework](image/scrum-framework.png)
