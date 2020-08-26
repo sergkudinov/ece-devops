@@ -1,24 +1,13 @@
 # Continuous testing
 
-## Test driven development (TDD)
+## Benefits
 
-Process:
+- Better efficiency and higher-quality deployments
+- Rapid error discovery and remediation for distributed projects
+- Improved user experience
+- Minimization or elimination of business disruption and its costs
 
-1. Add a test
-2. Run all tests and see if the new test fails
-3. Write the code
-4. Run tests
-5. Refactor code
-
-![TDD process](image/tdd.png)
-
-## TDD benefits
-
-- Better program design and higher code quality
-- Detailed project documentation
-- Reduces the time required for project development
-- Code flexibility and easier maintenance
-- End up with a reliable solution
+![Read more](https://www.ibm.com/cloud/learn/continuous-testing)
 
 ## Types of tests
 
@@ -47,6 +36,22 @@ Process:
 - Use production-like database
 - UI testing
 - Acceptance testing
+
+## Test coverage
+
+![Test coverage](image/test-pyramid.png)
+
+## Test driven development (TDD)
+
+![TDD process](image/tdd.png)
+
+## TDD benefits
+
+- Better program design and higher code quality
+- Detailed project documentation
+- Reduces the time required for project development
+- Code flexibility and easier maintenance
+- End up with a reliable solution
 
 ## Test automation
 

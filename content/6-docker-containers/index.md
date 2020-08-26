@@ -8,9 +8,9 @@ Containers offer a logical packaging mechanism in which applications can be abst
 
 ## Covered topics
 
-- Container images
-- Docker introduction
-- Orchestration introduction
+- Benefits of containerization
+- Docker basics
+- Docker Compose
 
 [Go to the slides content](slides.md).
 

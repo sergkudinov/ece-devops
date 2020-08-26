@@ -8,6 +8,10 @@ The portability and reproducibility of a containerized process mean we have an o
 
 ## Covered topics
 
+- Need for orchestration
+- Orchestration tools
+- Kubernetes basics
+
 [Go to the slides content](slides.md).
 
 ## Labs

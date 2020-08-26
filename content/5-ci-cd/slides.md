@@ -1,46 +1,75 @@
 # Continuous Integration & Continuous Delivery (CI/CD)
 
-## Continuous Integration (CI)
+## What is it?
 
-This is a software development practice in which members of a team integrate their work frequently, at least daily, leading to multiple integrations per day.
+**Continuous Integration (CI)** - a practice in which members of a team integrate their work frequently.
 
-## Continuous Delivery (CD)
+**Continuous Delivery (CD)** - a discipline where software is built in a manner that allows for **deploying** to customers at any time.
 
-This is a software development discipline where software is built in a manner that allows for deploying to customers at any time.
+**Continuous Deployment (CD)** - this **extends Continuous Delivery** by automating the deployment process so that code is automatically deployed to production after it passes automated testing.
 
-##  Continuous Deployment
+## Benefits
 
-This extends Continuous Delivery by automating the deployment process so that code is automatically deployed to production after it passes automated testing.
+- More time for innovation
+- Better retention rates
+- More revenue
+- Business efficiency
+
+## CI/CD Fundamentals
+
+- **A single source repository**   
+  Source code management (SCM) that houses all necessary files and scripts to create builds.
+- **Automated builds**   
+  Scripts should include everything you need to build from a single command.
+- **Builds should be self-testing**   
+  Testing scripts should ensure that the failure of a test should result in a failed build.
+- **Frequent iterations**   
+  Multiple commits to the repository mean there are fewer places for conflicts to hide.
+- **Stable testing environments**   
+  Code should be tested in a cloned version of the production environment.
+- **Maximum visibility**   
+  Every developer should be able to access the latest executables and see any changes made to the repository.
+- **Automated deployments**   
+  Code should be able to deploy into multiple environments easily.
 
 ## What is the CI/CD Pipeline?
 
 **CI/CD pipeline** - an automated sequence of events that is initiated after you update the code.
 
-These events take care of the work that you would otherwise need to perform manually:
-- previewing your in-development site
-- testing your new code
-- deploying it to your production server
+Takes care of the work (that you would otherwise need to perform manually):
 
-# CI/CD with Travis CI and deployment platforms
+- previewing a in-development site
+- testing a new code
+- deploying it to a production server
 
-[Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/)
+## CI/CD pipeline
 
-## CD using Heroku
+![CI/CD pipeline](image/cicd-pipeline.png)
 
-[Heroku Deployment](https://docs.travis-ci.com/user/deployment/heroku/)
+## CI/CD tools
 
-[Automatically deploy with Travis CI and Heroku (article)](https://medium.com/@felipeluizsoares/automatically-deploy-with-travis-ci-and-heroku-ddba1361647f)
+- Travis CI
+- GitLab CI
+- Jenkins
+- ...
 
-# The CI/CD Pipeline Sequence
+## Version management with SemVer
 
-The flow of events:
+Formula: `MAJOR.MINOR.PATCH-LABEL`
 
-1. You create a new branch in your local Git repository and make code changes to your Gatsby project.
+Examples:
+```
+2.3.1
+1.0.0-alpha
+1.0.0-beta
+```
 
-2. You push your branch to your GitHub repository and create a pull request.
+`MAJOR` - version when you make incompatible API changes,
+`MINOR` - version when you add functionality in a backwards compatible manner, and
+`PATCH` - version when you make backwards compatible bug fixes.
+`LABEL` - for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
-3. Heroku automatically creates a preview of the site with a unique URL that can be shared.
+## Registries
 
-4. Travis CI automatically builds the site in an isolated container and runs any declared tests.
-
-5. When all tests pass, you merge the PR into the repository’s master branch, which automatically triggers a deployment to your production.
+- **Package registries**
+- **Image registries**

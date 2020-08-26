@@ -64,6 +64,7 @@ vpc resource
 ## Implementation in DevOps 
 
 **Example:** 
+
 Perfect agile DevOps flow:
   -> write code
   -> test

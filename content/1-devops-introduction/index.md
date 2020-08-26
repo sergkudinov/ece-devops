@@ -9,10 +9,9 @@ The DevOps culture focus on one goal throughout the entire software delivery lif
 ## Covered topics
 
 - Benefits
-- Lifecycle
-- Process & tools
-- Scrum, Agile Manifesto, extreme programming
-- Principles of Site Reliability Engineering (SRE)
+- Lifecycle and tools
+- SRE implements DevOps
+- Agile and Scrum
 
 [Go to the slides' content](slides.md).
 

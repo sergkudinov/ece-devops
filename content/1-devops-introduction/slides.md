@@ -2,26 +2,9 @@
 
 ## DevOps
 
-Is a culture, mindsets.
-
-## What is DevOps?
-
-- Approach of Software engineering and release
-- Quick iterative process
-- Tasks automation
-- Monitor everything, every step
-- Present in a lot of fields: Sysadmin, Data Engeneering, Data Science
-- You can’t do DevOps alone
-
-## Back to the history
-
-- Companies were focused on planning and documenting their software development cycles
-- Agile Manifesto in 2001 - https://agilemanifesto.org/
-- Agile principals were applied to software development
-- People applied the Manifesto’s principles to their work
-- In 2014, we started speaking about DevOps (in [Site Reliability Engineering](https://landing.google.com/sre/books/))
-
-[Read more](https://www.atlassian.com/agile/manifesto)
+- Is a culture
+- Breaking barriers between the Developers and Operations
+-
 
 ## Why DevOps?
 
@@ -36,11 +19,45 @@ Is a culture, mindsets.
 
 ![DevOps life cycle](image/devops.png)
 
-## Site Reliability Engineering (SRE) principles
+## Site Reliability Engineering (SRE) implements DevOps
+
+```
+class SRE implements DevOps
+```
+
+| DevOps                        | SRE                     |
+| ----------------------------- | ----------------------  |
+| Reduce organization silos     | Using the same tools and techniques |
+| Accept failure as normal      | Have a formula for balancing accidents and failures against new releases  |
+| Implement gradual change      | Encourage moving quickly by reducing costs of failure |
+| Leverage tooling & automation | Minimizing manual systems work to focus on efforts that bring long-term value to the system  |
+| Measure everything            | Measuring availability, uptime, outages, toil, etc. |
+
+## SRE
+
+SLI, SLO and SLA
+
+- **Service Level Indicators (SLI)**   
+  Metrics over time (latency, throughput of requests per second, or failures per request)
+- **Service Level Objectives (SLO)**   
+  Targets for the cumulative success of SLIs over a period ("last 30 days" or "this quarter")
+- **Service Level Agreement (SLA)**   
+  Promise by a service provider to a service customer about availability. Usually less than SLO.
+
+## Site Reliability Engineering (SRE) tools
 
 **"Everything should be completely automated."**
 
 ![SRE tools](image/SRE-tools.jpg)
+
+## Back to the history
+
+- Companies were focused on planning and documenting their software development cycles
+- Agile Manifesto in 2001 - https://agilemanifesto.org/
+- Agile principals were applied to software development
+- In 2014, we started speaking about DevOps (in [Site Reliability Engineering](https://landing.google.com/sre/books/))
+
+[Read more](https://www.atlassian.com/agile/manifesto)
 
 ## Agile vs Whaterfall
 
@@ -56,6 +73,8 @@ We are uncovering better ways of developing software by doing it and helping oth
 - **Responding to change** over following a plan
 
 That is, while there is value in the items on the right, we value the items on the left more.
+
+[Source](https://agilemanifesto.org/)
 
 ## Agile Principles
 

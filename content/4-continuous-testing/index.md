@@ -8,9 +8,11 @@ Continuous Testing is the process of executing automated tests as part of the so
 
 ## Covered topics
 
+- Benefits
+- Test types 
 - Test-driven development
-- Unit tests, functional tests, integration tests, end-to-end (e2e) tests
 - Test coverage
+- Test automation
 
 [Go to the slides content](slides.md).
 

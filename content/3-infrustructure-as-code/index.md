@@ -11,9 +11,7 @@ Infrastructure as code (IaC) is a type of IT setup wherein developers or operati
 - Imperative scripting & declarative definitions
 - Immutable & mutable infrastructure
 - Developer environment with Vagrant
-- Cloud provisioning with Terraform
-- On-premise deployment automation with Ansible
-
+- Provisioning with Ansible
 
 [Go to the slides content](slides.md).
 
