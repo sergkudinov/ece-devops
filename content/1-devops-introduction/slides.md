@@ -4,7 +4,6 @@
 
 - Is a culture
 - Breaking barriers between the Developers and Operations
--
 
 ## Why DevOps?
 
